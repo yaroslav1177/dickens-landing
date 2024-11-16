@@ -1,0 +1,35 @@
+.welcome {
+  padding-block: 50px;
+  font-family: Roboto, sans-serif;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 24px;
+
+  &__text {
+    background-color: #003366;
+    border-radius: 20px;
+    padding: 100px 80px;
+  }
+
+  &__title {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    font-family: Poppins, sans-serif;
+  }
+
+  &__subtitle {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  &__button {
+    background-color: #FBFBFB;
+    color: #003366;
+    font-size: 20px;
+    padding: 14px 20px;
+    border-radius: 14px;
+  }
+}

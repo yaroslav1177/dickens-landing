@@ -1,0 +1,165 @@
+.courses {
+  padding-block: 50px 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: Roboto, sans-serif;
+
+  &__items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__item {
+    border: 2px solid #003366;
+    border-radius: 20px;
+    padding: 40px;
+  }
+}
+
+.level {
+  &__button--details {
+    color: #343434;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-transform: uppercase;
+  }
+
+  &__button--wrapper {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  &__button--arrow {
+    width: 40px;
+    height: 40px;
+    background-color: #003366;
+    border-radius: 50%;
+    background-image: url('/src/assets/icons/learn-icon.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  &__name {
+    font-family: Poppins, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #003366;
+    text-transform: uppercase;
+  }
+
+  &__info {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 40px;
+  }
+
+  &__info--item {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #343434;
+    background-color: #eff3f7;
+    border-radius: 45px;
+    padding: 11.5px 16px;
+    display: flex;
+    gap: 8px;
+  }
+
+  &__price {
+    display: flex;
+    color: #003366;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+  }
+
+  &__price--title {
+    padding-right: 16px;
+    border-right: 2px solid #003366;
+  }
+
+  &__price--value {
+    padding-left: 16px;
+  }
+
+  &__button {
+    width: 216px;
+    background-color: #003366;
+    color: #fbfbfb;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 14px 85.5px;
+    border-radius: 14px;
+    text-transform: uppercase;
+  }
+}
+
+.models {
+  color: #343434;
+  margin-bottom: 24px;
+
+  &__title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #003366;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+
+  &__items {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  &__subtitle {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    margin-bottom: 8px;
+  }
+
+  &__point {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    position: relative;
+    padding-left: 40px;
+
+    &::before {
+      content: url('../assets/icons/point-icon.svg');
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.dropdown {
+  color: #343434;
+  width: 772px;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  &__item {
+    border: 1px solid #003366;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.3s;
+    padding: 31px 40px;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  &__title {
+    flex-grow: 1;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  &__toggle {
+    background-color: #003366;
+    color: #FBFBFB;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  &__content {
+    display: none;
+    margin-top: 25px;
+    font-size: 14px;
+    border-top: 1px solid #003366;
+    font-size: 18px;
+    line-height: 27px;
+    max-width: 612px;
+    padding-top: 30px;
+  }
+
+}

@@ -1,0 +1,19 @@
+@import './utils/normalize';
+@import './utils/variables';
+@import './utils/mixins';
+
+@import './details/BlockTitle.scss';
+@import './details/Container.scss';
+@import './details/Form.scss';
+@import './details/Dropdown.scss';
+
+@import './blocks/TopBar.scss';
+@import './blocks/Navigation.scss';
+@import './blocks/Welcome.scss';
+@import './blocks/Advantages.scss';
+@import './blocks/About.scss';
+@import './blocks/Courses.scss';
+@import './blocks/Contact.scss';
+@import './blocks/Testimonials.scss';
+@import './blocks/Questions.scss';
+@import './blocks/Footer.scss';

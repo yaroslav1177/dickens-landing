@@ -1,0 +1,59 @@
+.testimonials {
+  padding-block: 50px;
+  font-family: Roboto, sans-serif;
+  color: #343434;
+
+  &__title {
+    margin-bottom: 20px;
+  }
+
+  &__items {
+    display: flex;
+    gap: 24px;
+  }
+
+  &__item {
+    border: 1px solid #003366;
+    border-radius: 12px;
+    display: flex;
+    gap: 20px;
+    padding: 20px 78px 20px 20px;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  &__name {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+
+  &__role {
+    color: #6b6b6b;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  &__stars {
+    display: flex;
+  }
+
+  &__stars--star {
+    background-image: url(../assets/icons/star-icon.svg);
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  &__description {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 16px;
+  }
+}

@@ -1,0 +1,24 @@
+.contact {
+  background-color: #003366;
+  display: flex;
+  justify-content: space-between;
+  padding-block: 50px;
+  font-family: Poppins, sans-serif;
+
+  &__info {
+    color: #fbfbfb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__title {
+    color: #fbfbfb;
+  }
+
+  &__description {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+  }
+}

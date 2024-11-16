@@ -1,0 +1,26 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 50%;
+  &__input {
+    font-family: Roboto, sans-serif;
+    height: 64px;
+    padding: 18.5px 14px;
+    border: 1px solid #ececec;
+    border-radius: 4px;
+
+    &::placeholder {
+      color: #343434;
+    }
+  }
+
+  &__button {
+    margin-top: 16px;
+    background-color: #fbfbfb;
+    color: #003366;
+    width: 213px;
+    padding: 14px 30px;
+    border-radius: 14px;
+  }
+}
