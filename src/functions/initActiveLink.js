@@ -8,3 +8,5 @@ export const initActiveLink = () => {
     });
   });
 };
+
+window.initActiveLink = initActiveLink;

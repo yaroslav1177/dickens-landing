@@ -1,7 +1,11 @@
 .top-bar {
   height: 80px;
+  width: 100%;
   font-family: Roboto, sans-serif;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  z-index: 2;
+  background-color: #FBFBFB;
 }

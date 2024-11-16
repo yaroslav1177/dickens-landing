@@ -21,5 +21,9 @@
   &__link {
     font-weight: 500;
     color: #343434;
+    transition: all 300ms ease-in-out;
+    &:hover {
+      color: #003366;
+    }
   }
 }

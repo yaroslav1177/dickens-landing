@@ -14,7 +14,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="top-bar container">
+      <div class="top-bar animate__animated animate__fadeInDown container">
         <a href="#" class="top-bar__logo">
           <img src="./assets/icons/dickens-logo.svg" alt="dickens logo" />
         </a>
@@ -38,7 +38,7 @@
       </div>
     </header>
     <main>
-      <section class="welcome container">
+      <section class="welcome container animate__animated animate__fadeIn">
         <div class="welcome__text">
           <h1 class="welcome__title">
             Welcome to <br />
@@ -57,8 +57,8 @@
         </div>
       </section>
       <section class="advantages container">
-        <h2 class="advantages__title title">advantages</h2>
-        <div class="advantages__items">
+        <h2 class="advantages__title title animate__animated animate__fadeInUp">advantages</h2>
+        <div class="advantages__items animate__animated animate__fadeInUp">
           <div class="advantages__item">
             <img
               src="./assets/icons/advantage1.svg"
@@ -94,7 +94,7 @@
           </div>
         </div>
       </section>
-      <section class="about container">
+      <section class="about container" id="about">
         <div class="about__header">
           <h2 class="about__title title">About us</h2>
           <div class="about__button--wrapper">
@@ -139,7 +139,7 @@
           </div>
         </div>
       </section>
-      <section class="courses container">
+      <section class="courses container" id="courses">
         <h2 class="courses__title title">Our courses</h2>
         <div class="courses__items">
           <div class="courses__item level">
@@ -333,7 +333,7 @@
           </div>
         </div>
       </section>
-      <section class="contact container">
+      <section class="contact container" id="contact">
         <div class="contact__info">
           <h2 class="contact__title title">
             Companies, universities, <br />
@@ -472,9 +472,9 @@
       /></a>
       <p class="footer__info">© 2024 Dickens Consulting Group, LLC</p>
       <div class="footer__links">
-        <p class="footer__link">Course</p>
-        <p class="footer__link">About</p>
-        <p class="footer__link">Contact</p>
+        <a href="#courses" class="footer__link">Course</a>
+        <a href="#about" class="footer__link">About</a>
+        <a href="#contact" class="footer__link">Contact</a>
       </div>
     </footer>
     <script type="module" defer src="./index.js"></script>

@@ -28,7 +28,7 @@
 
   &__toggle {
     background-color: #003366;
-    color: #FBFBFB;
+    color: #fbfbfb;
     border: none;
     border-radius: 50%;
     width: 40px;
@@ -47,5 +47,8 @@
     max-width: 612px;
     padding-top: 30px;
   }
+}
 
+#content1 {
+  display: block;
 }
