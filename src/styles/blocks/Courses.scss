@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  font-family: Roboto, sans-serif;
+  font-family: $roboto-font;
 
   &__items {
     display: flex;
@@ -12,7 +12,7 @@
   }
 
   &__item {
-    border: 2px solid #003366;
+    border: 2px solid $secondary-color;
     border-radius: 20px;
     padding: 40px;
   }
@@ -20,8 +20,8 @@
 
 .level {
   &__button--details {
-    color: #343434;
-    font-family: Roboto, sans-serif;
+    color: $text-brown-color;
+    font-family: $roboto-font;
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
@@ -37,15 +37,15 @@
   &__button--arrow {
     width: 40px;
     height: 40px;
-    background-color: #003366;
+    background-color: $secondary-color;
     border-radius: 50%;
     background-image: url('/src/assets/icons/learn-icon.svg');
     background-repeat: no-repeat;
     background-position: center;
-    transition: all 300ms ease-in-out;
+    transition: all $transition-duration ease-in-out;
 
     &:hover {
-      background-color: #000;
+      background-color: $text-brown-color;
     }
   }
 
@@ -62,11 +62,11 @@
   }
 
   &__name {
-    font-family: Poppins, sans-serif;
+    font-family: $poppins-font;
     font-size: 24px;
     font-weight: 500;
     line-height: 36px;
-    color: #003366;
+    color: $secondary-color;
     text-transform: uppercase;
   }
 
@@ -80,7 +80,7 @@
     font-size: 18px;
     font-weight: 500;
     line-height: 27px;
-    color: #343434;
+    color: $text-brown-color;
     background-color: #eff3f7;
     border-radius: 45px;
     padding: 11.5px 16px;
@@ -90,7 +90,7 @@
 
   &__price {
     display: flex;
-    color: #003366;
+    color: $secondary-color;
     font-size: 30px;
     font-weight: 500;
     line-height: 45px;
@@ -100,7 +100,7 @@
 
   &__price--title {
     padding-right: 16px;
-    border-right: 2px solid #003366;
+    border-right: 2px solid $secondary-color;
   }
 
   &__price--value {
@@ -109,34 +109,34 @@
 
   &__button {
     width: 216px;
-    background-color: #003366;
-    color: #fbfbfb;
+    background-color: $secondary-color;
+    color: $primary-color;
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
     padding: 14px 85.5px;
     border-radius: 14px;
     text-transform: uppercase;
-    border: 1px solid #003366;
-    transition: all 300ms ease-in-out;
+    border: 1px solid $secondary-color;
+    transition: all $transition-duration ease-in-out;
 
     &:hover {
-      color: #003366;
-      background-color: #fbfbfb;
-      border: 1px solid #003366;
+      color: $secondary-color;
+      background-color: $primary-color;
+      border: 1px solid $secondary-color;
     }
   }
 }
 
 .models {
-  color: #343434;
+  color: $text-brown-color;
   margin-bottom: 24px;
 
   &__title {
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
-    color: #003366;
+    color: $secondary-color;
     text-transform: uppercase;
     margin-bottom: 16px;
   }

@@ -4,31 +4,31 @@
   gap: 24px;
   width: 50%;
   &__input {
-    font-family: Roboto, sans-serif;
+    font-family: $roboto-font;
     height: 64px;
     padding: 18.5px 14px;
     border: 1px solid #ececec;
     border-radius: 4px;
 
     &::placeholder {
-      color: #343434;
+      color: $text-brown-color;
     }
   }
 
   &__button {
     margin-top: 16px;
-    background-color: #fbfbfb;
-    color: #003366;
+    background-color: $primary-color;
+    color: $secondary-color;
     width: 213px;
     padding: 14px;
     font-size: 20px;
     line-height: 30px;
     border-radius: 14px;
-    border: 1px solid #003366;
-    transition: all 300ms ease-in-out;
+    border: 1px solid $secondary-color;
+    transition: all $transition-duration ease-in-out;
 
     &:hover {
-      background-color: #003366;
+      background-color: $secondary-color;
       color: #e0e7ef;
       border: 1px solid #e0e7ef;
     }

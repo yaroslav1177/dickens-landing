@@ -1,15 +1,14 @@
 .dropdown {
-  color: #343434;
+  color: $text-brown-color;
   width: 772px;
-  font-family: Roboto, sans-serif;
+  font-family: $roboto-font;
   display: flex;
   flex-direction: column;
   gap: 20px;
   &__item {
-    border: 1px solid #003366;
+    border: 1px solid $secondary-color;
     border-radius: 16px;
     overflow: hidden;
-    transition: all 0.3s;
     padding: 31px 40px;
   }
 
@@ -27,8 +26,8 @@
   }
 
   &__toggle {
-    background-color: #003366;
-    color: #fbfbfb;
+    background-color: $secondary-color;
+    color: $primary-color;
     border: none;
     border-radius: 50%;
     width: 40px;
@@ -41,7 +40,7 @@
     display: none;
     margin-top: 25px;
     font-size: 14px;
-    border-top: 1px solid #003366;
+    border-top: 1px solid $secondary-color;
     font-size: 18px;
     line-height: 27px;
     max-width: 612px;

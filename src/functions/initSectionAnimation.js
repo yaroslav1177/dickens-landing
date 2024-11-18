@@ -1,9 +1,5 @@
 export const initSectionAnimation = () => {
-  const aboutSection = document.querySelector('.about');
-  const coursesSection = document.querySelector('.courses');
-  const contactSection = document.querySelector('.contact');
-  const testimonialsSection = document.querySelector('.testimonials');
-  const questionsSection = document.querySelector('.questions');
+  const sections = ['.about', '.courses', '.contact', '.testimonials', '.questions'];
 
   const handleIntersection = (entries, observer) => {
     entries.forEach(entry => {
@@ -18,11 +14,12 @@ export const initSectionAnimation = () => {
     threshold: 0.03
   });
 
-  observer.observe(aboutSection);
-  observer.observe(coursesSection);
-  observer.observe(contactSection);
-  observer.observe(testimonialsSection);
-  observer.observe(questionsSection);
+  sections.forEach(selector => {
+    const section = document.querySelector(selector);
+    if (section) {
+      observer.observe(section);
+    }
+  });
 };
 
 window.initSectionAnimation = initSectionAnimation;

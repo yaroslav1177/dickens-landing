@@ -1,23 +1,23 @@
 .contact {
-  background-color: #003366;
+  background-color: $secondary-color;
   display: flex;
   justify-content: space-between;
   padding-block: 50px;
-  font-family: Poppins, sans-serif;
+  font-family: $poppins-font;
 
   &__info {
-    color: #fbfbfb;
+    color: $primary-color;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
   &__title {
-    color: #fbfbfb;
+    color: $primary-color;
   }
 
   &__description {
-    font-family: Roboto, sans-serif;
+    font-family: $roboto-font;
     font-size: 18px;
     line-height: 27px;
   }

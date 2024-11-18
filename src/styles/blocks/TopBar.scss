@@ -1,11 +1,11 @@
 .top-bar {
   height: 80px;
   width: 100%;
-  font-family: Roboto, sans-serif;
+  font-family: $roboto-font;
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: fixed;
   z-index: 2;
-  background-color: #fbfbfb;
+  background-color: $primary-color;
 }

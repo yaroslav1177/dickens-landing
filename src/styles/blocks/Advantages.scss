@@ -1,10 +1,10 @@
 .advantages {
   background-color: #e0e7ef;
   padding-block: 70px;
-  font-family: Poppins, sans-serif;
+  font-family: $poppins-font;
 
   &__title {
-    background-color: #fbfbfb;
+    background-color: $primary-color;
     padding: 30px 50px;
     margin-bottom: 20px;
     border-radius: 16px;
@@ -16,7 +16,7 @@
   }
 
   &__item {
-    background-color: #fbfbfb;
+    background-color: $primary-color;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,14 +36,14 @@
     font-weight: 500;
     line-height: 36px;
     text-align: center;
-    color: #003366;
+    color: $secondary-color;
     text-transform: uppercase;
   }
 
   &__description {
-    color: #343434;
+    color: $text-brown-color;
     font-size: 18px;
-    font-family: Roboto, sans-serif;
+    font-family: $roboto-font;
     text-align: center;
   }
 }

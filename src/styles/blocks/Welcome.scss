@@ -1,12 +1,12 @@
 .welcome {
   padding-block: 130px 50px;
-  font-family: Roboto, sans-serif;
+  font-family: $roboto-font;
   display: grid;
   grid-template-columns: 2fr 1fr;
   column-gap: 24px;
 
   &__text {
-    background-color: #003366;
+    background-color: $secondary-color;
     border-radius: 20px;
     padding: 100px 80px;
   }
@@ -17,7 +17,7 @@
     line-height: 58px;
     text-transform: uppercase;
     margin-bottom: 16px;
-    font-family: Poppins, sans-serif;
+    font-family: $poppins-font;
   }
 
   &__subtitle {
@@ -26,18 +26,18 @@
   }
 
   &__button {
-    background-color: #fbfbfb;
-    color: #003366;
+    background-color: $primary-color;
+    color: $secondary-color;
     font-size: 20px;
     padding: 14px 20px;
     border-radius: 14px;
-    border: 1px solid #003366;
-    transition: all 300ms ease-in-out;
+    border: 1px solid $secondary-color;
+    transition: all $transition-duration ease-in-out;
 
     &:hover {
-      background-color: #003366;
+      background-color: $secondary-color;
       color: #e0e7ef;
-      border: 1px solid #e0e7ef;
+      border: 1px solid $primary-color;
     }
   }
 }

@@ -1,7 +1,7 @@
 .testimonials {
   padding-block: 50px;
-  font-family: Roboto, sans-serif;
-  color: #343434;
+  font-family: $roboto-font;
+  color: $text-brown-color;
 
   &__title {
     margin-bottom: 20px;
@@ -13,7 +13,7 @@
   }
 
   &__item {
-    border: 1px solid #003366;
+    border: 1px solid $secondary-color;
     border-radius: 12px;
     display: flex;
     gap: 20px;
@@ -27,7 +27,7 @@
   }
 
   &__name {
-    font-family: Poppins;
+    font-family: $poppins-font;
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
@@ -94,14 +94,14 @@
 .swiper-pagination-bullet-active {
   width: 24px;
   height: 4px;
-  background-color: #003366;
+  background-color: $secondary-color;
   opacity: 1;
 }
 
 .swiper-button-next,
 .swiper-button-prev {
-  color: #fbfbfb;
-  background: #003366;
+  color: $primary-color;
+  background: $secondary-color;
   border: none;
   border-radius: 50%;
   font-size: 24px;
