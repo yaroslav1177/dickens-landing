@@ -1,4 +1,4 @@
-@import "animate.css";
+@import 'animate.css';
 
 *,
 *::before,
@@ -20,8 +20,8 @@ html {
 body {
   margin: 0;
   font-family: sans-serif;
-  background-color: #FBFBFB;
-  color: #FBFBFB;
+  background-color: #fbfbfb;
+  color: #fbfbfb;
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
@@ -77,7 +77,7 @@ blockquote::before,
 blockquote::after,
 q::before,
 q::after {
-  content: "";
+  content: '';
 }
 
 table {
